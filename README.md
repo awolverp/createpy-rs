@@ -21,7 +21,7 @@ only by one command.
 
 
 ## Installation
-You can build project from source, with *rust compiler*.
+You can build project from source, with [*rust compiler*](https://www.rust-lang.org/tools/install).
 
 -----
 
