@@ -115,7 +115,7 @@ fn create_commands() -> clap::ArgMatches {
                 clap::Arg::new("venvpath")
                     .short('p')
                     .long("venv-path")
-                    .default_value("virtualenv")
+                    .default_value("venv")
                     .value_name("PATH")
                     .help("Specify that where virtual environment have to create?"),
                 
@@ -213,7 +213,7 @@ pub fn parse_args() -> Arguments {
     }
 
     if let Some(noinput) = matches.get_one::<bool>("noinput") {
-        result.3.reinitialize_without_input = (*noinput).clone();
+        result.3.reinitialize_without_input = *noinput;
     }
 
     result

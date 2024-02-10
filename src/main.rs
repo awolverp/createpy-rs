@@ -9,7 +9,7 @@ mod makers;
 fn main() -> ExitCode {
     let args: arguments::Arguments = arguments::parse_args();
 
-    let reinitialize_without_input = args.3.reinitialize_without_input.clone();
+    let reinitialize_without_input = args.3.reinitialize_without_input;
 
     let initializers: MakersStructure = match MakersStructure::try_from(args) {
         Ok(o) => o,

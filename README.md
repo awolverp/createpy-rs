@@ -1,14 +1,14 @@
 # CreatePy
-A simple command-line tool to create Python projects, written in Rust.
+A simple command-line tool to create python projects, written in Rust.
 
-Create Python projects, create a virtual environment, and create an empty git repository for it,
-with only one command.
+Create python projects, create a virtual environment, and create an empty git repository for it,
+only by one command.
 
 > [!NOTE]\
-> This isn't a special repository, I wrote this tool to speedup my works, and practice **Rust** language.
+> This isn't a special repository, i wrote this tool to speedup my works, and practice **Rust** language.
 
 **Features**:
-- `Virtualenv` and `Venv` scripts are supported.
+- `virtualenv`, and `venv` scripts are supported.
 - `git` is supported:
     - Create an empty git repository, you can specify branch name,
     - Set user name, and email address for it,
@@ -21,13 +21,13 @@ with only one command.
 
 
 ## Installation
-You can build the project from source, with [*rust compiler*](https://www.rust-lang.org/tools/install).
+You can build project from source, with [*rust compiler*](https://www.rust-lang.org/tools/install).
 
 -----
 
 **First way:**
 
-1. Use the `cargo install` command:
+1. Use `cargo install` command:
 ```bash
 cargo install --git 'https://github.com/awolverp/createpy-rs'
 ```
@@ -37,13 +37,13 @@ createpy -h
 ```
 
 > [!TIP]\
-> You can uninstall it by using `cargo uninstall createpy` command
+> You can uninstall it by `cargo uninstall createpy`
 
 -----
 
 **Second way:**
 
-1. First, download source from here by using the `git clone` (or any tool you can use)
+1. First, download source from here by using `git clone` (or any tool you can use)
 ```bash
 git clone 'https://github.com/awolverp/createpy-rs'
 ```
@@ -52,7 +52,7 @@ git clone 'https://github.com/awolverp/createpy-rs'
 ```bash
 cargo build --release
 ```
-4. Now you can use this tool, the binary file is stored here: `./target/release/createpy`:
+4. Now you can use this tool, binary file is stored here: `./target/release/createpy`:
 ```bash
 ./target/release/createpy -h
 ```
