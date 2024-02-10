@@ -15,6 +15,9 @@ only by one command.
     - Add new remote to it.
 
 ### Example
+<p align=center>
+    <img src="https://github.com/awolverp/createpy-rs/assets/118073811/69d2f0dd-c36c-4eb9-bd4b-53436363126e" width="80%"/>
+</p>
 
 
 ## Installation
