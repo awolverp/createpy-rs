@@ -4,7 +4,7 @@ A simple command-line tool to create python projects, written in Rust.
 Create python projects, create a virtual environment, and create an empty git repository for it,
 only by one command.
 
-> [!NOTE] \
+> [!NOTE]\
 > This isn't a special repository, i wrote this tool to speedup my works, and practice **Rust** language.
 
 **Features**:
@@ -36,7 +36,7 @@ cargo install --git 'https://github.com/awolverp/createpy-rs'
 createpy -h
 ```
 
-> [!TIP] \
+> [!TIP]\
 > You can uninstall it by `cargo uninstall createpy`
 
 -----
