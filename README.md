@@ -16,7 +16,7 @@ with only one command.
 
 ### Example
 <p align=center>
-    <img src="https://github.com/awolverp/createpy-rs/assets/118073811/69d2f0dd-c36c-4eb9-bd4b-53436363126e" width="80%"/>
+    <img src="https://github.com/awolverp/createpy-rs/assets/118073811/69d2f0dd-c36c-4eb9-bd4b-53436363126e" width="90%"/>
 </p>
 
 
